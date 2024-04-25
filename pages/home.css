@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fundo{
+    background-color: #049EB2;
+    opacity: 75%;
+    height: 100vh;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.entrada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    padding: 12px;
+}
+.input{
+    padding-top: 100px;
+}
+header input{
+    padding: 6px;
+    width: 400px;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+header .botao{
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botao{
+    border: #049EB2 2px solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    color: #049EB2;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.caixas{
+    color: white;
+    gap: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+
+}
+.caixas input{
+    height: 350px;
+    width: 500px;
+    background-color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Inspiration", cursive;
+}
