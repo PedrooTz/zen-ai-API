@@ -40,6 +40,9 @@ form {
     padding: 36px;
     color: white;
 }
+form p{
+    display: flex;
+}
 
 label {
     display: block;
@@ -76,6 +79,9 @@ button {
     color: #049EB2;
     border: none;
     font-size: large;
+}
+button:hover{
+    transform: scale(1.1);
 }
 .image{
     display: flex;
