@@ -37,7 +37,6 @@ h1 {
 
 form {
     margin-bottom: 1rem;
-    padding: 36px;
     color: white;
 }
 form p{
@@ -80,6 +79,7 @@ button {
     border: none;
     font-size: large;
 }
+
 button:hover{
     transform: scale(1.1);
 }
