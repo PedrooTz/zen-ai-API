@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
     <link rel="icon" href="./img/foto.png">
     <title>ZEN - AI</title>
 </head>
@@ -20,15 +21,15 @@
     </header>
         <main>
             <h1>LOGIN</h1>
-            <form action="#"> 
+            <form action="./pages/home.html" id="form"> 
                 <p>user...</p>
-                <input type="text" placeholder="digite aqui..." id="name" name="name" >
+                <input type="text" placeholder="digite aqui..." id="email" name="name" >
                 <p>password...</p>
-                <input type="password" placeholder="digite aqui..." id="password" name="password">
+                <input type="password" placeholder="digite aqui..." id="senha" name="password">
             </form>
 
-            <a href="./pages/home.html"><button class="botao">LOGIN</button></a>
-
+            <button type="submit" id="login">LOGIN</button>
+            
         </main>
     </div>
     <footer>

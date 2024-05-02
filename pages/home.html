@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="../script.js" defer></script>
     <link rel="stylesheet" href="./home.css">
+    
     <link rel="icon" href="../img/foto.png">
     <title>ZEN - AI</title>
 </head>
@@ -18,22 +20,21 @@
         <header>
             <div class="entrada">
                 <div class="input">
-                    <input type="text" placeholder="Faça a sua pergunta...">
+                    <input type="text" placeholder="Faça a sua pergunta..." id="question">
+                    <button class="botao" id="send-question"> SENT </button>
                 </div>
-                <button class="botao">
-                    SENT
-                </button>
+               
             </div>
         </header>
         <main>
             <div class="caixas">
                 <div class="caixa1">
                 <p>Zen - AI</p>
-                <input type="text" disabled>
+                <input type="text"  id="return" disabled>
                 </div>
                 <div class="caixa2">
                 <p>Tradução</p>
-                <input type="text" disabled>
+                <input type="text"  id="translation" disabled>
             </div>
             </div>
         </main>
